@@ -73,6 +73,7 @@ export default function Navbar() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z" />
               </svg>
             </div> */}
+            <img src="/images/ak.png" alt="logo" className='h-6 w-6' />
             <span className="text-2xl font-black text-white hidden sm:block">
               Anime<span className="text-transparent bg-clip-text bg-gradient-to-r from-slate-400 to-slate-400">Ken</span>
             </span>
@@ -211,21 +212,7 @@ export default function Navbar() {
             )}
           </div>
 
-          {/* Right Side Actions */}
-          <div className="flex items-center gap-3">
-            {/* <button className="hidden sm:flex items-center gap-2 px-4 py-2 bg-slate-800/80 hover:bg-slate-700 text-white rounded-xl transition-all border border-slate-700">
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-              </svg>
-              <span className="font-semibold">Favorites</span>
-            </button> */}
-
-            {/* <button className="p-2 sm:p-3 bg-gradient-to-r from-slate-500 to-slate-500 hover:shadow-lg hover:shadow-slate-500/50 text-white rounded-xl transition-all">
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-              </svg>
-            </button> */}
-          </div>
+         
         </div>
       </div>
     </nav>
